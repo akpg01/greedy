@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Greedy</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+            integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="info" data-info="info">
+             <span id="info__close">&times;</span>
+             <div class="greedyRes">Greedy Game Rules</div>
+             <hr>
+            <p>This is a test. Only a test</p>
+        </div>
+        <div class="top10">
+            <span class="close__top10">&times;</span>
+            <div class="greedyRes">Greedy Top Scores</div>
+            <hr>
+                <ul class="top10__ul">
+                    
+                </ul>
+        </div>
+        <div id="theModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="performance">
+                    <div class="greedyRes">Greedy Results</div>
+                    <hr>
+                    <div class="finalScore"></div>
+                    <div class="topTen">
+                         <div class="topTen__msg"></div>
+                         <div>
+                             <p>Greedy High Scores</p>
+                             <ul class="tenScores">
+
+                             </ul>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="gameBoard">
+            <div class="gameInfo">
+                <div class="winnersCircle"><a href="#"><i class="fa fa-list-ul"></i></a></div>
+                <div class="gameRules"><a href="#"><i class="fa fa-info-circle"></i></a></div>
+            </div>
+            <div id="title">Greedy</div>
+            <div class="wrapper">
+                <div class="results">
+                    <div class="label__r">Rounds:</div>
+                    <div class="label__info lbl_rounds">7</div>
+                    <div class="label__s">Score:</div>
+                    <div class="label__info lbl_score">155</div>
+                </div>
+                <div class="diceWrapper">
+                    <div class="points">
+                        <div class="label">Points:</div>
+                        <div class="label_info lbl_points">105</div>
+                    </div>
+                    <div class="dicePanel">
+
+                    </div>
+                </div>
+                <div class="prevScore">The previous high score was <span class="highScore">0</span></div>
+            </div>
+            <div class="buttons">
+                <button type="button" id="roll">Roll</button>
+                <button type="button" id="end-round">End Round</button>
+            </div>
+        </div>
+        <script src="js/app.js"></script>
+    </body>
+</html>
